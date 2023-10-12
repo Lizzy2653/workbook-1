@@ -6,7 +6,16 @@ class calcuator {
     public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the first number; ")
-        int firstNumber = scanner.nextIn()
+        int firstNumber = scangit commit -m "first commit"
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/Lizzy2653/workbook-1.git
+        git push -u origin mainit commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/Lizzy2653/workbook-1.git
+        git push -u origin mainit branch -M main
+        git remote add origin https://github.com/Lizzy2653/workbook-1.git
+        git push -u origin mainner.nextIn()
         scanner.nextLine()
         System.out.println("Enter the second number");
         int secondNumber = scanner.nextInt()
