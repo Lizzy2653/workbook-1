@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+  </component>
+</module>
+
+public static MathApp {
+
+
+higherSalary = Math.max(bobSallary, garySalary);
+
+System.out.printIn("The higher salary is " + higherSalary);
+
+double carPrice = 37000.;
+double truckPrice = 79999.;
+System.out.printIn("The cheaper vehicle costs ") + Math.min(carPrice, truckPrice));
+
+
+//Distance between points (5, 10) and (85, 50)
+//points are (x, y) coordinates
+//Formula = java.lang.Math.sqrt ( pow((x2-x1), 2)  + Math.pow((y2-y1),2) )
+
+double distance = 0.0;
+
+distance = Math.sqrt( Math.pow(85.-5.0)) + Math.pow(50. - 10.));
+System.out.printIn("Distance between two points:");
+System.out.printIn("Distance = " + distance);
+System.out.printf("Distance between %d points = %5.2f\n"), distance);
+        }
+        public static double calculateDistanceBetween(double x2. double x1, double y2, double y
+        double distance = 0.0;
+
+        distance Math.sqrt( Math.pow(x2 - x1. 2.0) + Math.pow (y2 - y1, 2.0));
+
+        return distance;
+   }
+
+   public static double promptAndReturnDouble(String prompt){
+   double vaue;
+   scanner scanner = new Scanner(System.in);
+   System.out.print(prompt + "m : ");
+   value = scanner
